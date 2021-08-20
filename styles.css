@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: local('Sofia Pro Light'), local('Sofia-Pro-Light'),
+        url('fonts/SofiaProLight.woff2') format('woff2'),
+        url('fonts/SofiaProLight.woff') format('woff'),
+        url('fonts/SofiaProLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'Sofia Pro';
+    src: local('Sofia Pro Extra Light'), local('Sofia-Pro-Extra-Light'),
+        url('fonts/SofiaProExtraLight.woff2') format('woff2'),
+        url('fonts/SofiaProExtraLight.woff') format('woff'),
+        url('fonts/SofiaProExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'Sofia Pro';
+    src: local('Sofia Pro Regular'), local('Sofia-Pro-Regular'),
+        url('fonts/SofiaProRegular.woff2') format('woff2'),
+        url('fonts/SofiaProRegular.woff') format('woff'),
+        url('fonts/SofiaProRegular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'Sofia Pro';
+    src: local('Sofia Pro Medium'), local('Sofia-Pro-Medium'),
+        url('fonts/SofiaProMedium.woff2') format('woff2'),
+        url('fonts/SofiaProMedium.woff') format('woff'),
+        url('fonts/SofiaProMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'Sofia Pro';
+    src: local('Sofia Pro Bold'), local('Sofia-Pro-Bold'),
+        url('fonts/SofiaProBold.woff2') format('woff2'),
+        url('fonts/SofiaProBold.woff') format('woff'),
+        url('fonts/SofiaProBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'Sofia Pro';
+    src: local('Sofia Pro Bold'), local('Sofia-Pro-Bold'),
+        url('fonts/SofiaProBold-Italic.woff2') format('woff2'),
+        url('fonts/SofiaProBold-Italic.woff') format('woff'),
+        url('fonts/SofiaProBold-Italic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+  }
+
+
+.about{
+    margin-bottom: 100px;
+}
+
+.hero__header{
+    background:  #f5f6fa;;
+    /* background: #E3E3E3; */
+    width: 100%;
+    height: 26vh;
+    
+}
+
+.logos{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.ll img{
+    margin-top: 20px;
+
+    width: 70%;
+    /* height: 10vh; */
+}
+
+.lll img{
+    margin-top: 20px;
+
+    width: 100%;
+    /* height: 10vh; */
+}
+
+
+
+
+.hero__image{
+    background-image: url("./assets/me.PNG");
+
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-size: cover;
+    margin-top: -100px;
+    margin-bottom: 40px;
+}
+
+
+
+.details{
+    text-align: center;
+    color: #646464;
+    font-size: 2em;
+    padding-bottom: 1em;
+    font-family: "Sofia Pro", sans-serif !important;
+    font-weight: 900 !important;
+}
+
+.get{
+    text-align: center;
+}
+
+.get a{
+    font-family: 'Sofia Pro', sans-serif;
+    border: 2px solid rgba(255, 103, 68, 0.91);
+    padding: 10px 20px;
+    border-radius: 50px;
+    background: white;
+    color: #cc4b37;
+}
+
+
+.get a:hover{
+    background-color: #cc4b37;
+    transform: scale(1.1);
+    transition: all 1ms ease-out;
+
+    /* transition: all .3s ease-in-out; */
+    color: #fff;
+}
+
+.icons{
+    text-align: center;
+    margin-top: 40px;
+    /* display: flex; */
+    
+}
+
+
+
+.fa {
+	font-size: 1.2em;
+	padding: 0.1em 0.4em;
+	color: #8a8a8a;
+}
+
+.fa:hover {
+	cursor: pointer;
+    color: #cc4b37;
+}
+
+
+.skills{
+    background-color: #e1f6ff;;
+    /* background-color: #4c6d86; */
+    /* padding: 6em 4em 5.6em; */
+    padding: 100px 0px;
+}
+
+.skills h1{
+    text-align: center;
+    padding-bottom: 40px;
+    /* color: #fff; */
+    color: #022b69;;
+    font-size: 3em;
+    font-family: "Sofia Pro", sans-serif;
+    font-weight: 900;
+
+}
+
+.my__skills{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+}
+
+.my__skills h3{
+    /* color: #fff; */
+    color: #022b69;;
+    font-weight: 700;
+    font-size: 2em;
+    margin-bottom: 5px;
+    font-family: "Sofia Pro", sans-serif ;
+}
+
+.card__1{
+    text-align: center;
+}
+
+.card__1 h4{
+    list-style: none;
+    /* color: #bbd2ff; */
+    color: #022b69;;
+    font-family: "Sofia pro", sans-serif;
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.card__2{
+    text-align: center;
+}
+.card__2 h4{
+    list-style: none;
+    color: #022b69;;
+    /* color: #bbd2ff; */
+    font-family: "Sofia pro", sans-serif;
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.work{
+    background-color: #0066f5;;
+    /* background-color: rgba(255, 103, 68, 0.91); */
+    padding: 6em 4em 5.6em;
+    text-align: center;
+}
+
+
+.work h1{
+    color: white;
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 3em;
+}
+
+.work h4{
+    list-style: none;
+    color: white;
+    font-family: "Sofia pro", sans-serif;
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.touch{
+    margin-top: 25px;
+}
+
+.touch a{
+    font-family: 'Sofia Pro', sans-serif;
+    font-weight: 700;
+    /* border: 2px solid white; */
+    padding: 10px 25px;
+    /* border-radius: 50px; */
+    background: rgba(255, 103, 68, 0.91);
+    /* background: #fff; */
+    /* color: white; */
+    border: 2px solid #fff;
+    border-radius: 45px;
+    color:#fff
+}
+
+.touch a:hover{
+    background-color: #FFf;
+    transform: scale(1.1);
+    transition: all 1ms ease-out;
+
+    /* transition: all .3s ease-in-out; */
+    color: #cc4b37
+}
+
+.log a:hover {
+    background-color:#fff;
+    color: white;
+}
+
+.footer{
+    background: #fefefe;
+    padding: 100px 0px;
+
+}
+
+.footer__content{
+    text-align: center;
+}
+
+.footer__content h2{
+    background-color: rgba(255, 103, 68, 0.91);
+    border-radius: 50%;
+    color: #fff;
+    padding: .4em;
+    font-family: "Maven pro", sans-serif;
+    font-size: 1.6em;
+    font-weight: 500;
+    display: inline;
+}
+
+.footer__content h4{
+    margin-top: 1.6em;
+    font-family: "Maven pro", sans-serif;
+    font-weight: 500;
+    color: #7d7d7d;
+}
